@@ -11,7 +11,7 @@ By default only tasks with a set 'due date' which is equal to the current date a
 0. Download [polybar-todoist.py](https://raw.githubusercontent.com/jbirnick/polybar-todoist/master/polybar-todoist.py) from this repo.
 1. Install the [official Todoist Python Module](https://github.com/Doist/todoist-python). (e.g. with `pip install todoist-python`)
 2. [Configure the API Token retrieval](#api-token-retrieval).
-3. Copy the folling example configuration into your polybar config:
+3. Copy-paste the following example configuration into your polybar config:
    ```ini
    [module/todoist]
 
@@ -35,7 +35,9 @@ The simplest way would be to hard-code it into the script (i.e. `return <YOUR_AP
 Rather query it from your password manager / keyring or read it from an external file.
 
 (By default it asks [GNOME Keyring](https://wiki.archlinux.org/index.php/GNOME/Keyring) for a password with the uuid `todoist_api_token`. So if you use GNOME Keyring you can just execute
-```secret-tool store --label='Todoist API Token' uuid todoist_api_token```
+```
+secret-tool store --label='Todoist API Token' uuid todoist_api_token
+```
 and type in your API Token. Then it works out of the box.)
 
 ## Customization
