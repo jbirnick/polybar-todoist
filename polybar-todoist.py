@@ -16,7 +16,7 @@ api = TodoistAPI(api_token())
 
 while True:
     try:
-        tasks = api.get_tasks(filter="due: today")
+        tasks = api.get_tasks(filter="today")
         count = countTasks(tasks)
         print('%{{B#de4c4a}} {0[4]} %{{B-}}%{{B#f49c18}} {0[3]} %{{B-}}%{{B#4073d6}} {0[2]} %{{B-}}%{{B#444444}} {0[1]} %{{B-}}'.format(count))
     except:
