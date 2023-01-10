@@ -9,7 +9,7 @@ By default only tasks with a set 'due date' which is equal to the current date a
 ## Installation
 
 0. Download [polybar-todoist.py](https://raw.githubusercontent.com/jbirnick/polybar-todoist/master/polybar-todoist.py) from this repo.
-1. Install the [official Todoist Python Module](https://github.com/Doist/todoist-python). (e.g. with `pip install todoist-python`)
+1. Install the [official Todoist Python Module](https://github.com/Doist/todoist-api-python). (e.g. with `pip install todoist-api-python`)
 2. [Configure the API Token retrieval](#api-token-retrieval).
 3. Copy-paste the following example configuration into your polybar config:
    ```ini
