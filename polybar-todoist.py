@@ -1,5 +1,6 @@
 from todoist_api_python.api import TodoistAPI
 import subprocess
+import time 
 
 def api_token():
     return subprocess.run(['secret-tool','lookup','uuid','todoist_api_token'], capture_output=True, text=True).stdout
