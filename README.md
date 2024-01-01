@@ -6,6 +6,8 @@ This script uses the [official Todoist API](https://developer.todoist.com/) to i
 
 By default, only tasks with a set 'due date' which is equal to the current date are taken into account. (But you can easily change that; for example, I personally use the filter `today | overdue | no date`.)
 
+The same module is available for waybar [here](https://github.com/jbirnick/waybar-todoist).
+
 ## Installation
 
 0. Download [polybar-todoist.py](https://raw.githubusercontent.com/jbirnick/polybar-todoist/master/polybar-todoist.py) from this repo.

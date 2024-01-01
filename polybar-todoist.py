@@ -20,4 +20,4 @@ while True:
         print('%{{B#de4c4a}} {0[4]} %{{B-}}%{{B#f49c18}} {0[3]} %{{B-}}%{{B#4073d6}} {0[2]} %{{B-}}%{{B#444444}} {0[1]} %{{B-}}'.format(count))
     except:
         print(' ERROR ')
-    time.sleep(120)
+    time.sleep(20)
